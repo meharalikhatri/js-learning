@@ -21,4 +21,7 @@ const age = 40
 
 let user_1 = "mehar"
 
-console.log(user_1)
+console.log(user_1[0])
+console.log(user_1.length)
+
+//for more info visit : https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings

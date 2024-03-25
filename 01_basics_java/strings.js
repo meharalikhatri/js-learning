@@ -1,3 +1,5 @@
+//you must have to see how many popular protype available like length..etc..
+
 let str1 = "hello"
 let str2 = " mehar"
 let str3 = str1 + str2
@@ -10,10 +12,10 @@ let str3 = str1 + str2
 // console.log((5 + 1 + "5" + "2")*1 + 2);
 
 
-/* Use Backticks Method */
+/* Use Backticks (string interpolation) Method */
 const name = "mehar"
 const age = 40
-// console.log ('my name is ${name} and my age is ${age}');
+// console.log (`my name is ${name} and my age is ${age}`);
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 

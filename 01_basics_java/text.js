@@ -1,10 +1,12 @@
-const _id = "443sdd3424"
-const trip_id = "887203adndc323"
-// let score = new Number(54)
-let runs = '433'
+const country = [{
+    country_name : "Pakistan",
+    currency : "Pkr",
+    Population : 4000000000
+},
+{   country_name : "India",
+    currency : "in",
+    Population : 45000000000
+}
+]
 
-let New_array = [..._id,...runs,...trip_id]
-let New_array1 = _id.concat(trip_id)
-console.log(New_array1);
-
-
+console.log(Object.keys(country[0]))

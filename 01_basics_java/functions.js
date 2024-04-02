@@ -24,22 +24,36 @@ const result = addTwoNumbers(2,5)
 
 
 
-const first_value = 5
+const first_value = 20
 const second_value = 6
 
 function twoValue(first_value,second_value){
+
     return first_value+second_value
 }
 
-const result_1 = addTwoNumbers(first_value,second_value)
+const result_1 = twoValue(first_value,second_value)
 
-// console.log("Result is : ",result_1)
+console.log("Result is : ",result_1)
 
 
 // function with if statment
-function isLoggedIn(username){
+// function isLoggedIn(username){
 
-    return `${username} is just logged in`
+//     return `${username} is just logged in`
+// }
+// const mylogged = isLoggedIn("mehar")
+// console.log(mylogged)
+
+
+//If statement
+
+function abc (username_1){
+    if(username_1 === undefined){
+        // console.log("please write the correct name");
+
+    }
+ return `${username_1} is my name`
 }
-const mylogged = isLoggedIn("mehar")
-console.log(mylogged)
+const myname = abc()
+// console.log(myname)

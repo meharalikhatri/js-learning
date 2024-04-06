@@ -22,3 +22,4 @@ do {
     console.log(`my score is ${score}`);
     score++
 } while (score <=10);
+

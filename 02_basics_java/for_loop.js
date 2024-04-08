@@ -1,11 +1,11 @@
 // loops call iteration
 
 
-// for (let  index = 0 /* 1.  index intitialized*/
-//         ; index <= 10 /*2. condition check*/
-//         ; index++ /*4. increament will apply at the end*/) {
-//     const element = index; /*3. then value declear and process*/
-//     console.log(index) /*you can not print this index out of this block scoop*/;}
+for (let  index = 0 /* 1.  index intitialized*/
+        ; index <= 10 /*2. condition check*/
+        ; index++ /*4. increament will apply at the end*/) {
+    const element = index; /*3. then value declear and process*/
+    console.log(index) /*you can not print this index out of this block scoop*/;}
 
 
 // If condtion

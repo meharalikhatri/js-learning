@@ -57,3 +57,17 @@ function abc (username_1){
 }
 const myname = abc()
 // console.log(myname)
+
+
+
+
+// let val1 = 5
+// let val2 = 30
+
+// function ali() {
+//     return val1 - val2
+    
+// }
+// let val3 = ali()
+
+// console.log(val3);

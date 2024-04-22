@@ -38,8 +38,10 @@
     newli.textContent = "pakistan"
     secondlang.replaceWith(newli)
 
-    const firstlang = document.queryCommandIndeterm("li:firstchild")
+    const firstlang = document.queryCommandIndeterm("li:first-child")
     firstlang.outerHTML = '<li>typescrip</li>'
 
+    const lastlang = document.querySelector("li:last-child")
+    lastlang.remove()
 </script>
 </html>

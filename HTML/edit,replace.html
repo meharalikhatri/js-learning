@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haziree</title>
+</head>
+<body>
+    <ul class="language">
+        <li>Javascript</li>
+        
+    </ul>
+
+</body>
+<script>
+    function addlang(lang){
+        const li = document.createElement('li');
+        li.innerHTML = `${lang}`;
+        document.querySelector('.language').appendChild(li)
+
+    }
+
+    function addoptlang2(lang2){
+        const li = document.createElement('li');
+        li.appendChild(document.createTextNode(lang2));
+        document.querySelector('.language').appendChild(li)
+    }
+    addlang('python');
+    addlang("excel");
+    addlang('python2');
+    addoptlang2('react');
+
+    //Edit or Replace
+
+    const secondlang = document.querySelector("li:nth-child(2)")
+    const newli = document.createElement('li')
+    newli.textContent = "pakistan"
+    secondlang.replaceWith(newli)
+
+    const firstlang = document.queryCommandIndeterm("li:firstchild")
+    firstlang.outerHTML = '<li>typescrip</li>'
+
+</script>
+</html>
